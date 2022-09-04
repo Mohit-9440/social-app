@@ -1,7 +1,7 @@
 import "./topbar.css";
 import { Search, Person, Chat, Notifications } from "@material-ui/icons";
 
-export const Topbar = () => {
+export default function Topbar() {
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
